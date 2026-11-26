@@ -575,3 +575,223 @@ msgstr ""
 #: ucode/template/themes/argon/header.ut:43
 msgid "Navigation"
 msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:9
+msgid "Overview"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:10
+msgid "Router overview"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:10
+msgid "View live system, network and connection information."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:11
+msgid "Real-time bandwidth"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:11
+msgid "Open LuCI’s live per-interface bandwidth graph."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:12
+msgid "System log"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:12
+msgid "Read recent router events and errors."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:14
+msgid "Devices"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:15
+msgid "Device inventory"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:15
+msgid "See known devices, addresses and device settings."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:17
+msgid "Network"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:18
+msgid "Interfaces"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:18
+msgid "Manage LAN, WAN and other network interfaces."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:19
+msgid "Wireless"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:19
+msgid "Manage Wi-Fi radios and wireless networks."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:20
+msgid "DHCP and DNS"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:20
+msgid "Configure local addresses and name resolution."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:21
+msgid "Firewall"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:21
+msgid "Manage traffic rules and firewall zones."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:22
+msgid "Port forwards"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:22
+msgid "Open the native IPv4 port forwarding rules."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:24
+msgid "Services"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:25
+msgid "Dynamic DNS"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:25
+msgid "View and update dynamic DNS tasks."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:26
+msgid "Notifications"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:26
+msgid "Manage router notifications."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:27
+msgid "Certificates"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:27
+msgid "Manage certificate issuance and deployment."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:29
+msgid "System"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:30
+msgid "System settings"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:30
+msgid "Configure the router name, time and other system settings."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:31
+msgid "Administration"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:31
+msgid "Manage access to the router."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:32
+msgid "Backup and upgrade"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:32
+msgid "Back up configuration or open the firmware upgrade tools."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:82
+msgid "Log out"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:109
+msgid "Show common menu"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:109
+msgid "Show full menu"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:139
+msgid "Open a device to edit its settings. Fixed IPv4, port forwards and DDNS are separate settings."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:141
+msgid "Start with LAN or WAN. After a LAN address change, reconnect to the router at its new address."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:143
+msgid "Choose the Wi-Fi network you want to edit. Changing its name or password may disconnect wireless clients."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:145
+msgid "Choose the relevant interface before changing address assignment or DNS settings."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:148
+msgid "Choose the source and destination zones before editing rules. Open Port Forwards to publish a specific port."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:150
+msgid "A port forward sends traffic from one external port to a chosen internal IP and port. Use a stable destination address."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:152
+msgid "Check the resolved address and last update. Creating a DNS record does not itself publish a Web service."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:154
+msgid "Set up a delivery channel first, then choose which events should send notifications."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:156
+msgid "Issuing a certificate and deploying it to a service are separate steps. Check both states."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:158
+msgid "Start here for router identity and time settings. Open Administration for access settings."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:161
+msgid "Check how you will get back into the router before changing an access method."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:163
+msgid "Download a configuration backup before starting an upgrade."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:176
+msgid "Quick guide"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:179
+msgid "Use the existing controls below. Changes are handled by LuCI and its installed apps."
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:194
+msgid "Router shortcuts"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:195
+msgid "Common pages"
+msgstr ""
+
+#: htdocs/luci-static/resources/argon-common-pages.js:196
+msgid "Open a common task below. Live router status remains on this page."
+msgstr ""

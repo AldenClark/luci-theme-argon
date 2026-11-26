@@ -50,6 +50,7 @@ function fixture() {
 		},
 		{
 			bind: (fn, context) => fn.bind(context),
+			require: () => Promise.resolve({ render() {} }),
 			env: { dispatchpath: ['admin', 'status', 'overview'] }
 		},
 		document, { matchMedia: () => mobile }

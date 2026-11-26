@@ -298,7 +298,8 @@ return baseclass.extend({
 				trigger.focus();
 			else if (!mobile.matches && wasMobileControl) {
 				const target = sidebar.style.display === 'none' ? document.querySelector('#maincontent')
-					: sidebar.querySelector('.nav button, .nav a') || sidebar.querySelector('.brand');
+					: sidebar.querySelector('.argon-common-controls > button')
+						|| sidebar.querySelector('.nav button, .nav a') || sidebar.querySelector('.brand');
 				target.focus();
 			}
 		});
@@ -326,6 +327,11 @@ return baseclass.extend({
 				this.renderTabMenu(node, url);
 			}
 		}
+
+		// Do not let a missing optional layer interrupt native navigation.
+		L.require('argon-common-pages').then(module => module.render(tree)).catch(error => {
+			console.warn('Argon common pages are unavailable:', error);
+		});
 	},
 
 	/**

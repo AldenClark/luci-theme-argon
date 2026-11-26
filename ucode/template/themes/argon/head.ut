@@ -83,7 +83,9 @@
 	{%
 		// Source builds can change CSS without changing the package version.
 		// ctime also catches replacements which preserve mtime and file size.
-		const stylesheets = is_login && !auth_html && !auth_plugin ? ['base'] : ['base', 'admin'];
+		const stylesheets = is_login
+			? (!auth_html && !auth_plugin ? ['base'] : ['base', 'admin'])
+			: ['base', 'admin', 'common-pages'];
 	%}
 	{% for (let sheet in stylesheets): %}
 	{%

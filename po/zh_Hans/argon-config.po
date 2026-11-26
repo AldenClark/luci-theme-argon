@@ -570,3 +570,223 @@ msgstr "关闭"
 #: ucode/template/themes/argon/header.ut:43
 msgid "Navigation"
 msgstr "导航"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:9
+msgid "Overview"
+msgstr "总览"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:10
+msgid "Router overview"
+msgstr "路由器总览"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:10
+msgid "View live system, network and connection information."
+msgstr "查看实时系统、网络和连接信息。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:11
+msgid "Real-time bandwidth"
+msgstr "实时带宽"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:11
+msgid "Open LuCI’s live per-interface bandwidth graph."
+msgstr "打开 LuCI 原生的实时接口带宽图。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:12
+msgid "System log"
+msgstr "系统日志"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:12
+msgid "Read recent router events and errors."
+msgstr "查看近期路由器事件和错误。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:14
+msgid "Devices"
+msgstr "设备"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:15
+msgid "Device inventory"
+msgstr "设备清单"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:15
+msgid "See known devices, addresses and device settings."
+msgstr "查看已知设备、地址和设备设置。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:17
+msgid "Network"
+msgstr "网络"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:18
+msgid "Interfaces"
+msgstr "接口"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:18
+msgid "Manage LAN, WAN and other network interfaces."
+msgstr "管理 LAN、WAN 及其他网络接口。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:19
+msgid "Wireless"
+msgstr "无线"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:19
+msgid "Manage Wi-Fi radios and wireless networks."
+msgstr "管理 Wi-Fi 射频及无线网络。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:20
+msgid "DHCP and DNS"
+msgstr "DHCP 和 DNS"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:20
+msgid "Configure local addresses and name resolution."
+msgstr "配置内网地址分配和域名解析。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:21
+msgid "Firewall"
+msgstr "防火墙"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:21
+msgid "Manage traffic rules and firewall zones."
+msgstr "管理流量规则与防火墙区域。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:22
+msgid "Port forwards"
+msgstr "端口映射"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:22
+msgid "Open the native IPv4 port forwarding rules."
+msgstr "查看系统原生 IPv4 端口映射规则。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:24
+msgid "Services"
+msgstr "服务"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:25
+msgid "Dynamic DNS"
+msgstr "动态 DNS"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:25
+msgid "View and update dynamic DNS tasks."
+msgstr "查看和更新动态 DNS 任务。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:26
+msgid "Notifications"
+msgstr "通知"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:26
+msgid "Manage router notifications."
+msgstr "管理路由器通知。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:27
+msgid "Certificates"
+msgstr "证书"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:27
+msgid "Manage certificate issuance and deployment."
+msgstr "管理证书签发与部署。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:29
+msgid "System"
+msgstr "系统"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:30
+msgid "System settings"
+msgstr "系统设置"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:30
+msgid "Configure the router name, time and other system settings."
+msgstr "配置路由器名称、时间与其他系统设置。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:31
+msgid "Administration"
+msgstr "管理访问"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:31
+msgid "Manage access to the router."
+msgstr "管理访问路由器的方式。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:32
+msgid "Backup and upgrade"
+msgstr "备份与升级"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:32
+msgid "Back up configuration or open the firmware upgrade tools."
+msgstr "备份配置或打开固件升级工具。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:82
+msgid "Log out"
+msgstr "退出登录"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:109
+msgid "Show common menu"
+msgstr "显示常用菜单"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:109
+msgid "Show full menu"
+msgstr "显示完整菜单"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:139
+msgid "Open a device to edit its settings. Fixed IPv4, port forwards and DDNS are separate settings."
+msgstr "打开某台设备编辑设置。固定 IPv4、端口映射和 DDNS 分开配置。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:141
+msgid "Start with LAN or WAN. After a LAN address change, reconnect to the router at its new address."
+msgstr "先找到要配置的 LAN 或 WAN。更改 LAN 地址后，请用新地址重新连接路由器。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:143
+msgid "Choose the Wi-Fi network you want to edit. Changing its name or password may disconnect wireless clients."
+msgstr "选择需要修改的 Wi-Fi 网络。修改名称或密码可能断开无线设备。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:145
+msgid "Choose the relevant interface before changing address assignment or DNS settings."
+msgstr "先确认接口，再更改地址分配或 DNS 设置。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:148
+msgid "Choose the source and destination zones before editing rules. Open Port Forwards to publish a specific port."
+msgstr "编辑规则前先确认来源与目标区域。要开放指定端口，请前往端口映射。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:150
+msgid "A port forward sends traffic from one external port to a chosen internal IP and port. Use a stable destination address."
+msgstr "端口映射会把一个外部端口的流量转给指定的内网 IP 和端口。请使用稳定的目标地址。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:152
+msgid "Check the resolved address and last update. Creating a DNS record does not itself publish a Web service."
+msgstr "检查解析地址和最近一次更新。创建 DNS 记录不会自动对外发布 Web 服务。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:154
+msgid "Set up a delivery channel first, then choose which events should send notifications."
+msgstr "先设置投递渠道，再选择哪些事件需要发送通知。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:156
+msgid "Issuing a certificate and deploying it to a service are separate steps. Check both states."
+msgstr "签发证书和将证书部署到服务是两步，请分别检查状态。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:158
+msgid "Start here for router identity and time settings. Open Administration for access settings."
+msgstr "在这里设置路由器名称和时间。访问方式请在管理访问中设置。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:161
+msgid "Check how you will get back into the router before changing an access method."
+msgstr "更改访问方式前，先确认如何重新登录路由器。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:163
+msgid "Download a configuration backup before starting an upgrade."
+msgstr "开始升级前，请先下载配置备份。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:176
+msgid "Quick guide"
+msgstr "快捷指引"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:179
+msgid "Use the existing controls below. Changes are handled by LuCI and its installed apps."
+msgstr "请使用下方原有控件。配置仍由 LuCI 与已安装的插件处理。"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:194
+msgid "Router shortcuts"
+msgstr "路由器快捷入口"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:195
+msgid "Common pages"
+msgstr "常用页面"
+
+#: htdocs/luci-static/resources/argon-common-pages.js:196
+msgid "Open a common task below. Live router status remains on this page."
+msgstr "从下方打开常用功能。本页仍会显示路由器实时状态。"

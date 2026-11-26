@@ -40,7 +40,7 @@ test('application and login compose the same head with their own resource bounda
 				assert.match(html, /id="argon-appearance" hidden/);
 				assert.match(html, /L\.require\('argon-appearance'\)/);
 			} else {
-				assert.doesNotMatch(html, /admin\.css|argon-menu-icons|argon-appearance|\/luci\.js|\/cbi\.js|L\.require/);
+				assert.doesNotMatch(html, /admin\.css|common-pages\.css|argon-menu-icons|argon-appearance|\/luci\.js|\/cbi\.js|L\.require/);
 			}
 		}
 		assert.equal((renderer.render('headers-twice').html.match(/<!DOCTYPE html>/g) || []).length, 1);
@@ -74,8 +74,8 @@ test('stylesheet URLs track source rebuilds and preserved timestamps on applicat
 		}).html.matchAll(/href="[^"]*\/css\/([^"]+\.css\?v=[^"]+)"/g)].map(m => m[1]);
 		const stats = { [base]: original, [admin]: { ...original, size: 50 } };
 		assert.deepEqual(links('sysauth', stats), ['base.css?v=10-11-12']);
-		assert.deepEqual(links('application', stats), ['base.css?v=10-11-12', 'admin.css?v=10-11-50']);
-		assert.deepEqual(links('sysauth', stats, { auth_html: '<div>Plugin UI</div>' }), links('application', stats));
+		assert.deepEqual(links('application', stats), ['base.css?v=10-11-12', 'admin.css?v=10-11-50', 'common-pages.css?v=0']);
+		assert.deepEqual(links('sysauth', stats, { auth_html: '<div>Plugin UI</div>' }), links('application', stats).slice(0, 2));
 		for (const field of ['mtime', 'ctime', 'size']) {
 			const changed = { ...stats, [base]: { ...original, [field]: 90 } };
 			assert.notEqual(links('sysauth', changed)[0], links('sysauth', stats)[0]);

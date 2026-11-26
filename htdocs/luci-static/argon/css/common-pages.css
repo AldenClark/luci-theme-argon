@@ -1,0 +1,119 @@
+/* Scoped to the Argon common pages; no native controls or status data are restyled. */
+.argon-common-panel,
+.argon-common-controls,
+.argon-common-navigation {
+	--common-paper: #faf8f2;
+	--common-card: #fffdf8;
+	--common-ink: #172c2b;
+	--common-muted: #495c58;
+	--common-accent: #07675f;
+	--common-border: #c8d6ce;
+	--common-focus: #167970;
+}
+html[data-argon-mode="dark"] :is(.argon-common-panel, .argon-common-controls, .argon-common-navigation) {
+	--common-paper: #172725;
+	--common-card: #1e322e;
+	--common-ink: #f2f2e9;
+	--common-muted: #bccbc3;
+	--common-accent: #85ded2;
+	--common-border: #526f67;
+	--common-focus: #a9f3e7;
+}
+@media (prefers-color-scheme: dark) {
+	html[data-argon-mode="normal"] :is(.argon-common-panel, .argon-common-controls, .argon-common-navigation) {
+		--common-paper: #172725;
+		--common-card: #1e322e;
+		--common-ink: #f2f2e9;
+		--common-muted: #bccbc3;
+		--common-accent: #85ded2;
+		--common-border: #526f67;
+		--common-focus: #a9f3e7;
+	}
+}
+#mainmenu > .argon-common-native-hidden,
+.argon-common-navigation[hidden],
+.argon-common-panel[hidden] {
+	display: none !important;
+}
+.argon-common-controls { padding: 0.55rem 0.9rem; }
+.argon-common-controls > button {
+	min-height: 44px;
+	width: 100%;
+	padding: 0.45rem 0.75rem;
+	border: 1px solid var(--common-border);
+	border-radius: 0.55rem;
+	background: var(--common-paper);
+	color: var(--common-ink);
+	text-align: start;
+	white-space: normal;
+}
+.argon-common-navigation { padding: 0.2rem 0.9rem 1rem; }
+.argon-common-nav-group {
+	margin-block: 0.4rem;
+	padding: 0.45rem 0.6rem;
+	border: 1px solid var(--common-border);
+	border-radius: 0.65rem;
+	background: var(--common-card);
+	color: var(--common-ink);
+}
+.argon-common-nav-group > ul,
+.argon-common-card > ul { margin: 0; padding: 0; list-style: none; }
+.argon-common-nav-label,
+.argon-common-kicker { margin: 0; color: var(--common-muted); font-size: 0.8rem; font-weight: 700; }
+.argon-common-nav-link {
+	display: flex;
+	align-items: center;
+	min-height: 44px;
+	padding-inline: 0.3rem;
+	border-radius: 0.3rem;
+	overflow-wrap: anywhere;
+}
+.argon-common-nav-link[aria-current="page"] {
+	background: var(--common-paper);
+	box-shadow: inset 0 0 0 1px var(--common-accent);
+	font-weight: 700;
+}
+.argon-common-panel {
+	margin: 1rem 0;
+	padding: clamp(0.85rem, 2.5vw, 1.6rem);
+	border: 1px solid var(--common-border);
+	border-radius: 1rem;
+	background: var(--common-paper);
+	color: var(--common-ink);
+	overflow-wrap: anywhere;
+}
+.argon-common-panel > h2,
+.argon-common-card > h3 {
+	margin: 0.2rem 0 0.45rem;
+	color: var(--common-ink);
+	font-weight: 700;
+	line-height: 1.25;
+}
+.argon-common-panel > h2 { font-size: clamp(1.25rem, 4vw, 1.85rem); }
+.argon-common-intro,
+.argon-common-card p { margin: 0; color: var(--common-muted); line-height: 1.5; }
+.argon-common-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+	gap: 0.75rem;
+	margin-top: 1.1rem;
+}
+.argon-common-card {
+	min-width: 0;
+	padding: 0.9rem;
+	border: 1px solid var(--common-border);
+	border-radius: 0.75rem;
+	background: var(--common-card);
+}
+.argon-common-card > h3 { font-size: 1.05rem; }
+.argon-common-card li + li { margin-top: 0.55rem; }
+.argon-common-nav-link,
+.argon-common-card-link { color: var(--common-accent); text-decoration: underline; text-underline-offset: 0.15em; }
+.argon-common-card-link { display: inline-block; padding-block: 0.2rem; font-weight: 700; }
+:is(.argon-common-nav-link, .argon-common-card-link, .argon-common-controls > button):focus-visible {
+	outline: 2px solid var(--common-focus);
+	outline-offset: 2px;
+}
+@media (forced-colors: active) {
+	.argon-common-nav-link[aria-current="page"] { border: 1px solid Highlight; }
+}
